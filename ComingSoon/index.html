@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <title>Coming Soon...</title>
 
+    <!--    <link rel="stylesheet" href="https://mmshabab90.github.io/front-end-web/ComingSoon/css/styles.css">-->
+
     <link rel="stylesheet" href="https://mmshabab90.github.io/front-end-web/ComingSoon/css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css">
+
+    <link rel="stylesheet" href="https://mmshabab90.github.io/front-end-web/ComingSoon/js/FlipClock-master/compiled/flipclock.css">
 
     <!--    google font -->
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
@@ -21,12 +24,17 @@
     <h1>Get Ready!</h1>
     <h2><i class="fa fa-rocket" aria-hidden="true"></i> Something cool is on the way...</h2>
 
-    <div class="clock"></div>
+    <div class="container">
+        <div class="flip-clock"></div>
+    </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
+    <script src="https://mmshabab90.github.io/front-end-web/ComingSoon/js/jquery/jquery-3.4.1.js"></script>
+    <script src="https://mmshabab90.github.io/front-end-web/ComingSoon/js/FlipClock-master/compiled/flipclock.min.js"></script>
 
     <script type="text/javascript">
-        var clock = $('.clock').FlipClock(00);
+        var clock = $('.flip-clock').FlipClock(00);
+
     </script>
-</body></html>
+</body>
+
+</html>

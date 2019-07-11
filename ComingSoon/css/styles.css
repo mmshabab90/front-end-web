@@ -26,3 +26,12 @@ h2 {
 i {
     color: aquamarine;
 }
+
+.container {
+    text-align: center;
+}
+
+.flip-clock {
+    display: inline-block;
+    width: auto;
+}
